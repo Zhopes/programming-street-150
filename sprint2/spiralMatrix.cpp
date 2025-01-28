@@ -39,7 +39,6 @@ void generateSpiralMatrix(int n){
       left++;
     }
   }
-
   //print the matrix
   for(const auto& row : matrix){
     for(int val : row){
